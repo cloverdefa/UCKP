@@ -8,3 +8,4 @@ curl \
 bash-completion \
 wakeonlan \
 nano \
+snmpd \
