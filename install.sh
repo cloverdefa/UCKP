@@ -8,5 +8,6 @@ wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/theme
 unzip ~/.poshthemes/themes.zip -d ~/.poshthemes
 chmod u+rw ~/.poshthemes/*.json
 rm ~/.poshthemes/themes.zip
+echo 'eval "$(oh-my-posh init bash)"' >> ~/.bashrc
 sudo rm -r ~/uckp  #移除下載資料夾
 sudo reboot  #重新啟動開機
